@@ -1,0 +1,21 @@
+:root{
+    --cor_comeco: rgb(116, 116, 235);
+    --cor_meio: rgb(173, 85, 173);
+    --cor_fim: rgb(3, 135, 158);
+}
+body{
+    background-color: var(--cor_comeco);
+}
+h1{
+    color: var(--cor_meio)
+}
+.principal{
+    border; solid grey 1px;
+    text-align: center;
+    height: 333px;
+    width: 333px;
+    border-radius: 11%;
+}
+button{
+    text-align: center;
+}
