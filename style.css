@@ -1,21 +1,21 @@
 :root{
-    --cor_comeco: rgb(116, 116, 235);
-    --cor_meio: rgb(173, 85, 173);
-    --cor_fim: rgb(3, 135, 158);
+    --cor_onze: rgb(171, 179, 255);
+    --cor_doze: rgb(122, 103, 228);
 }
 body{
-    background-color: var(--cor_comeco);
+    background-color: var(--cor_onze);
 }
 h1{
-    color: var(--cor_meio)
+    color: var(--cor_doze);
+    text-align: center;
 }
 .principal{
-    border; solid grey 1px;
+    border: solid rgb(97, 59, 202) 2px;
     text-align: center;
-    height: 333px;
-    width: 333px;
-    border-radius: 11%;
+    height: 666px;
+    border-radius: 50%;
+    background-color: rgb(140, 148, 221);
 }
-button{
+.button{
     text-align: center;
 }
