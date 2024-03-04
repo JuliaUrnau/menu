@@ -4,6 +4,11 @@
 }
 body{
     background-color: var(--cor_onze);
+    font-family: 'Times New Roman', Times, serif;
+}
+.main{
+    border: solid rgb(84, 62, 204);
+    padding-left: center;
 }
 h1{
     color: var(--cor_doze);
@@ -13,10 +18,19 @@ h1{
     border: solid rgb(97, 59, 202) 10px;
     text-align: center;
     height: 500px;
-    border-radius: 50%;
+    width: 400px;
+    border-radius: 11%;
     background-color: rgb(140, 148, 221);
-    padding: 100px;
+    margin-left: 737px;
 }
 .button{
-    text-align: center;
+    background-color: rgb(127, 108, 233);
+    border: solid rgb(84, 62, 204);
+    border-radius: 50%;
+    color:  rgb(127, 108, 233);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 11px;
+    width: 123px;
+    height: 30px;
+    font-size: 243px;
 }
